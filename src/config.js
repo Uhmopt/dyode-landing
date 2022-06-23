@@ -1,1 +1,1 @@
-export const APP_NAME = "react-tailwind-material-scss";
+export const APP_NAME = "DYODE";

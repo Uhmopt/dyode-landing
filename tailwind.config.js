@@ -22,10 +22,10 @@ module.exports = {
         "7x": "calc(700%)",
       },
       backgroundImage: {
-        // logo: "url('/src/assets/logo/logo_360.png')",
+        logo: "url('/src/assets/images/logo/logo.svg')",
       },
       colors: {
-        primary: "#39B3FF",
+        primary: "#10504F",
         secondary: "#003657",
         success: "#00AA06",
         warning: "#F1B800",
