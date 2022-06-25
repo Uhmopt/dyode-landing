@@ -15,6 +15,7 @@ module.exports = {
         "xl-down": { max: "1920px" },
       },
       spacing: {
+        104: "26rem",
         112: "28rem",
         128: "32rem",
         136: "34rem",

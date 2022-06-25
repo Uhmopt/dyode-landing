@@ -60,6 +60,33 @@ export const lightTheme = createTheme({
         lineHeight: "35px",
       },
     },
+    h3: {
+      fontFamily: "Pacifico",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: 26,
+      lineHeight: "46px",
+      "@media (max-width:600px)": {
+        fontSize: 20,
+        lineHeight: "35px",
+      },
+    },
+
+    body2: {
+      fontFamily: "Lato",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: 22,
+      lineHeight: "26px",
+    },
+
+    subtitle2: {
+      fontFamily: "Lato",
+      fontStyle: "normal",
+      fontWeight: 300,
+      fontSize: 16,
+      lineHeight: "19px",
+    },
   },
   components: {
     MuiBackdrop: {
