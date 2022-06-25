@@ -11,7 +11,7 @@ export default function SimpleCard({ image = null, title = "" }) {
         className="w-full h-136 md-down:h-96 sm-down:h-72 object-cover"
       />
       <div className="absolute bottom-0 w-full h-28 md-down:h-20 sm-down:h-14 bg-primary text-white flex justify-center items-center">
-        <CustomTypo>{title}</CustomTypo>
+        <CustomTypo variant="h2">{title}</CustomTypo>
       </div>
     </div>
   );

@@ -37,7 +37,29 @@ export const lightTheme = createTheme({
     // In Chinese and Japanese the characters are usually larger,
     // so a smaller fontsize may be appropriate.
     fontSize: 12,
-    fontFamily: ["Open Sans"],
+    fontFamily: ["Lato", "Open Sans"],
+    h1: {
+      fontFamily: "Pacifico",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: 60,
+      lineHeight: 105,
+      "@media (max-width:600px)": {
+        fontSize: 26,
+        lineHeight: 46,
+      },
+    },
+    h2: {
+      fontFamily: "Pacifico",
+      fontStyle: "normal",
+      fontWeight: 400,
+      fontSize: 40,
+      lineHeight: 70,
+      "@media (max-width:600px)": {
+        fontSize: 20,
+        lineHeight: 35,
+      },
+    },
   },
   components: {
     MuiBackdrop: {

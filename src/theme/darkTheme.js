@@ -1,10 +1,10 @@
 import { createTheme } from "@mui/material";
+import { lightTheme } from "./lightTheme";
 import {
   DARK_BLUE_COLOR,
   ERROR_COLOR,
   PRIMARY_COLOR,
   SUCCESS_COLOR,
-  TRANSPARENT_WHITE_COLOR,
   WARNING_COLOR,
   WHITE_COLOR,
 } from "./variable";
@@ -33,20 +33,6 @@ export const darkTheme = createTheme({
       contrastText: WHITE_COLOR,
     },
   },
-  typography: {
-    // In Chinese and Japanese the characters are usually larger,
-    // so a smaller fontsize may be appropriate.
-    fontSize: 12,
-    fontFamily: ["Open Sans"],
-  },
-  components: {
-    MuiBackdrop: {
-      styleOverrides: {
-        root: {
-          backdropFilter: "blur(5px)",
-          background: TRANSPARENT_WHITE_COLOR,
-        },
-      },
-    },
-  },
+  typography: lightTheme.typography,
+  components: lightTheme.components,
 });
