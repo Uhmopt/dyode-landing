@@ -5,7 +5,7 @@ export default function CustomTypo({
   className = "",
   children = null,
   variant = "inherit",
-  color = "initial",
+  color = "inherit",
 }) {
   return (
     <Typography variant={variant} color={color} className={className}>
