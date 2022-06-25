@@ -43,10 +43,10 @@ export const lightTheme = createTheme({
       fontStyle: "normal",
       fontWeight: 400,
       fontSize: 60,
-      lineHeight: 105,
+      lineHeight: "105px",
       "@media (max-width:600px)": {
         fontSize: 26,
-        lineHeight: 46,
+        lineHeight: "46px",
       },
     },
     h2: {
@@ -54,10 +54,10 @@ export const lightTheme = createTheme({
       fontStyle: "normal",
       fontWeight: 400,
       fontSize: 40,
-      lineHeight: 70,
+      lineHeight: "70px",
       "@media (max-width:600px)": {
         fontSize: 20,
-        lineHeight: 35,
+        lineHeight: "35px",
       },
     },
   },

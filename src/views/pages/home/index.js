@@ -1,13 +1,13 @@
 import { Container } from "@mui/material";
-import CategoryGrid from "./forms/CategoryGrid";
 import HeroSlider from "./forms/HeroSlider";
+import HomeContent from "./HomeContent";
 
 export default function Home() {
   return (
     <div>
       <HeroSlider />
       <Container>
-        <CategoryGrid />
+        <HomeContent />
       </Container>
     </div>
   );
