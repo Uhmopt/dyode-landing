@@ -6,7 +6,7 @@ export default function Layout() {
   return (
     <div>
       <Header />
-      <div className="mt-40">
+      <div className="sm:mt-40 mt-32">
         <Outlet />
       </div>
       <Footer />
