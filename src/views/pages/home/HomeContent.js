@@ -9,7 +9,7 @@ import ProductGrid from "./forms/ProductGrid";
 
 export default function HomeContent() {
   return (
-    <div>
+    <div className="mb-5">
       <CategoryGrid
         data={[
           { image: womensImage, title: "Women's" },
