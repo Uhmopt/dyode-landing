@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Subscribe() {
   return (
-    <div className="py-20 sm:sm-down:py-10 px-12 sm-down:px-9 bg-primary text-white">
+    <div className="py-20 sm:sm-down:py-10 px-12 sm-down:px-10 bg-primary text-white">
       <CustomTypo variant="h1" className="pb-5 text-center">
         <Email fontSize="inherit" /> Sign Up & Stay Connected
       </CustomTypo>
