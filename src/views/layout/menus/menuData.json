@@ -1,6 +1,6 @@
 [
-  { "label": "MEN'S", "to": "/men" },
-  { "label": "WOMEN'S", "to": "/women" },
-  { "label": "ACCESSORIES", "to": "/accessories" },
-  { "label": "SALE!", "to": "/sale" }
+  { "label": "MEN'S", "to": "#" },
+  { "label": "WOMEN'S", "to": "#" },
+  { "label": "ACCESSORIES", "to": "#" },
+  { "label": "SALE!", "to": "#" }
 ]

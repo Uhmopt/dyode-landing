@@ -4,9 +4,8 @@ import {
   PRIMARY_COLOR,
   SECONDARY_COLOR,
   SUCCESS_COLOR,
-  TRANSPARENT_WHITE_COLOR,
   WARNING_COLOR,
-  WHITE_COLOR
+  WHITE_COLOR,
 } from "./variable";
 
 export const lightTheme = createTheme({
@@ -101,7 +100,7 @@ export const lightTheme = createTheme({
       styleOverrides: {
         root: {
           backdropFilter: "blur(5px)",
-          background: TRANSPARENT_WHITE_COLOR,
+          background: `${PRIMARY_COLOR}88`,
         },
       },
     },
