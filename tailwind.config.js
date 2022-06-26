@@ -38,6 +38,7 @@ module.exports = {
         success: "#00AA06",
         warning: "#F1B800",
         error: "#FF0000",
+        "white-gray": "#EFEFEF",
       },
     },
   },
