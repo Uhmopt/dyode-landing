@@ -1,12 +1,12 @@
 import { createTheme } from "@mui/material";
 import {
-  DARK_BLUE_COLOR,
   ERROR_COLOR,
   PRIMARY_COLOR,
+  SECONDARY_COLOR,
   SUCCESS_COLOR,
   TRANSPARENT_WHITE_COLOR,
   WARNING_COLOR,
-  WHITE_COLOR,
+  WHITE_COLOR
 } from "./variable";
 
 export const lightTheme = createTheme({
@@ -17,7 +17,7 @@ export const lightTheme = createTheme({
       contrastText: WHITE_COLOR,
     },
     secondary: {
-      main: DARK_BLUE_COLOR,
+      main: SECONDARY_COLOR,
       contrastText: WHITE_COLOR,
     },
     success: {
