@@ -6,7 +6,7 @@ import {
   SECONDARY_COLOR,
   SUCCESS_COLOR,
   WARNING_COLOR,
-  WHITE_COLOR
+  WHITE_COLOR,
 } from "./variable";
 
 export const darkTheme = createTheme({
@@ -35,4 +35,5 @@ export const darkTheme = createTheme({
   },
   typography: lightTheme.typography,
   components: lightTheme.components,
+  shape: lightTheme.shape,
 });

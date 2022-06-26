@@ -105,4 +105,6 @@ export const lightTheme = createTheme({
       },
     },
   },
+
+  shape: { borderRadius: 0 },
 });
