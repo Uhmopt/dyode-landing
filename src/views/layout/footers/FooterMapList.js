@@ -36,7 +36,7 @@ export default function FooterMapList({ title = "", data = [] }) {
         <Stack spacing={2} className="mr-10 sm-down:mr-0">
           {formatArray(data).map((item, itemIndex) => (
             <CustomLink key={itemIndex} to={item?.to ?? ""}>
-              <CustomTypo variant="body2">{item?.label ?? ""}</CustomTypo>
+              <CustomTypo variant="subtitle2">{item?.label ?? ""}</CustomTypo>
             </CustomLink>
           ))}
         </Stack>

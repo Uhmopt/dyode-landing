@@ -78,6 +78,10 @@ export const lightTheme = createTheme({
       fontWeight: 400,
       fontSize: 22,
       lineHeight: "26px",
+      "@media (max-width:600px)": {
+        fontSize: 14,
+        lineHeight: "30px",
+      },
     },
 
     subtitle2: {
@@ -86,6 +90,10 @@ export const lightTheme = createTheme({
       fontWeight: 300,
       fontSize: 16,
       lineHeight: "19px",
+      "@media (max-width:600px)": {
+        fontSize: 12,
+        lineHeight: "30px",
+      },
     },
   },
   components: {
